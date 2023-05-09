@@ -4,7 +4,7 @@ from helpers import add_now, sleep_if_needed
 
 ###############################################################################
 # A Medium article that describes this project is here:
-# https://medium.com/@real.zyxxy/hello-chatgpt-world-run-chatgpt-inside-a-python-script-in-5-minutes-4c9f4bdb6e28
+# https://medium.com/@real.zyxxy/using-chatgpt-to-review-tiny-python-snippets-6f236d689858
 
 ###############################################################################
 # do change these values - they are the parameters of ChatGPT request
@@ -39,7 +39,7 @@ li = [i*i for i in range(n)]
 print(li[0:n])"""]  # That's your chat prompt
 # You can change its value - ask ChatGPT anything you like.
 
-temperature = 0.0  # temperature's value must be a number between 0.0 and 1.0,
+temperature = 0.9  # temperature's value must be a number between 0.0 and 1.0,
 # 0.0 being the most deterministic, consistent ChatGPT mode,
 # and 1.0 being the most randon, unpredictable, creative ChatGPT mode.
 
